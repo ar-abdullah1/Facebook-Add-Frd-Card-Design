@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  }
+  
+  body {
+    background-color: #18191a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container {
+    position: relative;
+    width: 500px;
+    height: 280px;
+    margin: 200px auto;
+    background-color: #242526;
+    border: 1px solid #3a3b3c;
+    border-radius: 15px;
+    padding: 20px;
+  }
+  
+  .content-left {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+  }
+  .content-left .image img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+  }
+  
+  .content-right {
+    position: absolute;
+    right: 0;
+    width: 300px;
+    text-align: left;
+  }
+  
+  .title h1 {
+    color: #fff;
+    text-transform: capitalize;
+    margin: 0 0 20px 0;
+  }
+  
+  .flex-item {
+    display: flex;
+    gap: 1em;
+  }
+  
+  .about {
+    font-size: 20px;
+  }
+  
+  .about h5 {
+    color: #fff;
+    font-weight: 100;
+    padding: 0.5em 0;
+  }
+  
+  span i {
+    color: #616771;
+    font-size: 25px;
+  }
+  
+  .content-bottom {
+    position: absolute;
+    bottom: 20px;
+  }
+  
+  .content-bottom button span i {
+    color: #fff;
+  }
+  
+  .btn button {
+    padding: 5px 10px;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    border-radius: 6px;
+    text-align: center;
+  }
+  
+  .add button {
+    background-color: #2374e1;
+    padding: 5px 28px;
+    width: 180px;
+    cursor: pointer;
+  }
+  
+  .msg button {
+    background-color: #3a3b3c;
+    padding: 5px 28px;
+    width: 180px;
+    cursor: pointer;
+  }
+  
+  .menu button {
+    background-color: #3a3b3c;
+    width: 60px;
+    cursor: pointer;
+  }
